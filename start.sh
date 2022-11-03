@@ -1,4 +1,4 @@
-if [ -z $UPSTREAM_REPO ]
+if [ -z kingboyss ]
 then
   echo "Cloning main Repository"
   git clone https://github.com/kingboyss/database-filter.git /database-filter
