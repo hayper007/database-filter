@@ -1,5 +1,6 @@
 {
     "name": "EvaMariaBot",
+    "logo": "https://telegra.ph/file/8e6c923abd6139083e1de.jpg",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -59,7 +60,7 @@
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB. For more help watch this video - ",
             "required": false
         },
         "COLLECTION_NAME": {
