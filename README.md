@@ -48,7 +48,7 @@ You can deploy this bot anywhere.
 <p>
 <br>
 
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="[![Deploy](https://github.com/kingboyss/database-filter)](https://heroku.com/deploy)
 
 </a>
 </p>
