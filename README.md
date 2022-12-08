@@ -1,3 +1,4 @@
+
 ## Features
 
 - [x] Auto Filter
@@ -12,10 +13,8 @@
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
-- [x] File Store
-## Variables
 
-Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
+## Variables
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -27,8 +26,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 ### Optional Variables
-* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
-* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
+* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 * Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
 
 
@@ -40,7 +38,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=RXZhbWFyaWFURy9FdmFNYXJpYSBtYXN0ZXI">
+<a href="https://heroku.com/deploy?template=https://github.com/EvamariaTG/evamaria/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -51,7 +49,7 @@ You can deploy this bot anywhere.
 <pre>
 git clone https://github.com/EvamariaTG/evamaria
 # Install Packages
-pip3 install -U -r requirements.txt
+pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
 python3 bot.py
 </pre>
@@ -84,9 +82,3 @@ python3 bot.py
 • /unban  - to unban a user.
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all Eva Maria users
-• /batch - to create link for multiple posts
-• /link - to create link for one post
-```
-## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/EvaMariaSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeamEvamaria)
